@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "623686c6a8781d595e87ae7b"
+  },
+  "identificador": 41,
+  "mensaje": "220322",
+  "relacionador": 8,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "623686caa8781d595e87ae7d"
+  },
+  "identificador": 41,
+  "mensaje": "220322",
+  "relacionador": 9,
+  "__v": 0
+}]
