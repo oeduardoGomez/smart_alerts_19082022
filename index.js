@@ -10,6 +10,7 @@ const mantenimiento = require('./routes/mantenimiento.routes')
 const calidad = require('./routes/calidad.routes')
 const logistica = require('./routes/logistica.routes')
 const configuracion = require('./routes/configuracion.routes')
+const lines = require('./routes/lines.routes')
 const morgan = require('morgan')
 
 //Variables de entorno
@@ -26,6 +27,7 @@ app.use('/mantenimiento', mantenimiento)
 app.use('/logistica', logistica)
 app.use('/calidad', calidad)
 app.use('/configuracion', configuracion)
+app.use('/lines', lines)
 app.use(cors())
 
 // static Files------------------------------------------------------------

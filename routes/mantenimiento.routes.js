@@ -5,6 +5,7 @@ const mantenimiento = require('../models/mantenimiento')
 //GET-----------------------------------------------------------------
 router.get('/', async (req, res)=>{
     const allData = await mantenimiento.find()
+    console.log(allData)
     res.json(allData)
 })
 
